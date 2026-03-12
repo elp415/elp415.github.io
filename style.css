@@ -19,6 +19,16 @@ main {
   text-align: center;
 }
 
+.poop {
+  font-size: 10rem;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
