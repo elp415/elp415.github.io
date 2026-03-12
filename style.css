@@ -19,8 +19,9 @@ main {
   text-align: center;
 }
 
-.poop {
+.spin {
   font-size: 10rem;
+  display: inline-block;
   animation: spin 3s linear infinite;
 }
 
