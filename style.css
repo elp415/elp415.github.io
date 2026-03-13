@@ -19,15 +19,12 @@ main {
   text-align: center;
 }
 
-.spin {
-  font-size: 10rem;
-  display: inline-block;
-  animation: spin 3s linear infinite;
-}
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.clover-emoji {
+  position: fixed;
+  font-size: 8rem;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 10;
 }
 
 h1 {
